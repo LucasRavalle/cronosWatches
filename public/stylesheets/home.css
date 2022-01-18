@@ -1,5 +1,13 @@
-.home .products{
-    margin: 900px 550px 100px;
+.home .data{
+    margin: 900px auto 100px;
     color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
 
+.home .data div{
+    width: 15%
 }
