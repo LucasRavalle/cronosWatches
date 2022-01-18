@@ -1,0 +1,41 @@
+header{
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(122, 134, 146, 0.171);
+}
+/*LOGO*/
+
+header .logo{
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+}
+header .logo img{
+    width: 65px;
+}
+header .logo h2{
+    color: cornsilk;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+header nav{
+    width: 80%;
+}
+
+header nav .menu {
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav .menu li{
+    width: 10%;
+    text-decoration: none;
+}
+
+header nav .menu li a{
+    color: cornsilk;
+}

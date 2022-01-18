@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    padding: 0px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url('/images/fondo1.jpg');
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-color: rgb(90, 48, 48);
+}
+  
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
