@@ -2,7 +2,7 @@
 /* Sección data */
 
 .index .data{
-    margin: 900px auto 100px;
+    margin: 650px auto 100px;
     color: cornsilk;
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: lightgoldenrodyellow;
+    background-color: #B09E80;
 }
 
 .index .categoria div .box{
@@ -95,3 +95,10 @@
     cursor: pointer;
 }
 
+
+.index video{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}

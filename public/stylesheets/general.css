@@ -1,3 +1,16 @@
+:root{
+  --darkblue: #192537;
+  --lightgold: #B09E80;
+  --darkgold: #716551;
+  --white: #FFFFFF;
+  --gray: #b8b5b5; 
+
+  --titulos: 'Yusei Magic', sans-serif;
+  --subtitulos: 'Kulim Park', sans-serif;
+  --textos: 'Roboto', sans-serif;
+
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -7,16 +20,18 @@
 body {
     padding: 0px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-image: url('/images/fondo1.jpg');
+    /* background-image: url('/images/fondo1.jpg'); */
+  
     background-size: initial;
     background-repeat: no-repeat;
-    background-color: rgb(65, 64, 64);
+    background-color: #192537;
 }
   
 a {
-  color: #00B7FF;
+  color: #B09E80;
   text-decoration: none;
 }
 li {
   list-style: none;
 }
+

@@ -1,9 +1,10 @@
 header{
     padding: 35px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(122, 134, 146, 0.171);
+    background-color: rgba(45, 47, 49, 0.75);
 }
 /*LOGO*/
 
@@ -13,7 +14,7 @@ header .logo{
     flex-direction: row;
 }
 header .logo img{
-    width: 65px;
+    width: 180px;
 }
 header .logo h2{
     color: cornsilk;

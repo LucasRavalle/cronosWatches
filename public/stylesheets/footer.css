@@ -1,0 +1,43 @@
+.footer {
+    border-top: 3px solid #B09E80;
+    background-color: #192537;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 70px 90px;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.footer div {
+    width: 25%;
+}
+
+.footer div h3{
+    margin-bottom: 20px;
+}
+
+/* Logos y redes sociales */
+.footer .rrss .logos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .rrss .logos li{
+    font-size: 25px;
+}
+
+.footer .logo img{
+    width: 170px;
+}
+
+
+/* Secciones y categorias */
+
+.footer .list ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
