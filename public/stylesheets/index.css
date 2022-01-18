@@ -63,3 +63,35 @@
     cursor: pointer;
 }
 
+
+/* Sección productos */
+
+.index .products{
+    margin: 100px auto 100px;
+    color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.index .products div{
+    width: 15%;
+}
+
+.index .products img{
+    width: 200px;
+}
+
+.index .products div button{
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color:lightgoldenrodyellow ;
+    color: slategray;
+    border: 2px solid lightgray;
+    cursor: pointer;
+}
+
