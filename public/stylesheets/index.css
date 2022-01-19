@@ -12,7 +12,25 @@
 }
 
 .index .data div{
-    width: 15%
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index .data i{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.index .data p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.index h3{
+    font-family: var(--subtitulos);
+    font-weight: lighter;
 }
 
 
@@ -46,6 +64,7 @@
 .index .categoria div .box h2{
     margin: 20px;
     font-size: 35px;
+    font-family: var(--titulos);
 }
 
 .index .categoria div .box p{
@@ -94,11 +113,3 @@
     border: 2px solid lightgray;
     cursor: pointer;
 }
-
-
-/* .index video{
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-} */

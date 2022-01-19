@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 :root{
   --darkblue: #192537;
   --lightgold: #B09E80;
@@ -5,9 +9,9 @@
   --white: #FFFFFF;
   --gray: #b8b5b5; 
 
-  --titulos: 'Yusei Magic', sans-serif;
-  --subtitulos: 'Kulim Park', sans-serif;
-  --textos: 'Roboto', sans-serif;
+  --texto: 'Raleway', sans-serif;;
+  --subtitulos: 'Ubuntu', sans-serif;
+  --titulos:'Roboto Slab', serif;;
 
 }
 
@@ -34,4 +38,6 @@ a {
 li {
   list-style: none;
 }
-
+p{
+  font-family: var(--texto);
+}

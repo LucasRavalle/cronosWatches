@@ -31,6 +31,14 @@ header nav .menu {
     flex-direction: row;
     flex-wrap: wrap;
 }
+header nav .menu .botones {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 70%;
+}
 
 header nav .menu li{
     width: 10%;
@@ -39,4 +47,5 @@ header nav .menu li{
 
 header nav .menu li a{
     color: cornsilk;
+    font-family: var(--titulos);
 }
